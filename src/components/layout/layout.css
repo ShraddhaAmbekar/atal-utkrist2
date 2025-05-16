@@ -1,0 +1,118 @@
+.header {
+  top: 0;
+  padding: 15px 0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 150px;
+  /* Adjust width as per your logo size */
+  height: auto;
+  /* Maintain aspect ratio */
+  display: block;
+  /* Ensure it behaves as a block element */
+  margin: 0 auto;
+  /* Center align horizontally */
+}
+
+.navbar {
+  display: flex;
+  background-color: #04011b;
+  align-self: center;
+
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin: 0px 10px;
+}
+
+
+/* footer */
+.footer-dark {
+  background-color: #04011b;
+  color: #ccc;
+  padding: 50px 0 20px 0;
+ 
+}
+
+
+.footer-dark h4 {
+  color:  #bd4bff;
+margin-bottom:30px;
+
+
+}
+
+.footer-dark h4 {
+  display: inline-block;
+}
+
+.footer-dark ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-dark ul li {
+  margin-bottom: 10px;
+}
+
+.footer-dark ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s, padding-left 0.3s;
+  display: inline-block;
+}
+
+.footer-dark ul li a:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+.footer-dark p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #aaa;
+  margin: 0px 0;
+}
+
+.footer-bottom-text {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #666;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+/* ✅ Mobile View Styling */
+@media (max-width: 768px) {
+  .footer-dark h3,
+  .footer-dark h4,
+  .footer-dark p,
+  .footer-dark ul,
+  .footer-dark .footer-bottom-text {
+    text-align: center;
+  }
+
+  .footer-dark img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .footer-dark .col-md-4,
+  .footer-dark .col-md-2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-dark ul {
+    padding-left: 0;
+    display: block;
+  }
+  .column{
+    display: block;
+    text-align: center;
+  }
+}

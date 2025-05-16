@@ -1,0 +1,45 @@
+.information {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center; 
+  gap: 0px; 
+  color: rgb(29, 29, 54);
+  flex-wrap: wrap;
+  margin-bottom:100px ;
+}
+
+.information > div {
+  background-color: #f1f1f1;
+  object-fit: cover;
+  overflow: hidden;
+  font-size: 30px;
+  text-align: center;
+  max-height: 500px;
+  max-width: 600px;
+  background-color: rgb(29, 29, 54);
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information > div {
+    width: 90%;
+    height: auto;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .information img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
