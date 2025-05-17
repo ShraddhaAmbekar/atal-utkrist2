@@ -1,75 +1,87 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+function Navbar() {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+  const closeMenu = () => setIsNavCollapsed(true);
+
   return (
-<div> 
-     {/* <nav className="navbar navbar-dark navbar-expand-lg sticky-top">
-      <div className="container-fluid">
-        {/* <Link className="navbar-brand" to="/">Logo</Link> */}
-        {/* <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link active" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/gallery">Gallery</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/tours">Tours</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> */} 
-    
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <a className="navbar-brand" href="#">Brand</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button
+          className="navbar-toggler"
+          type="button"
+          aria-controls="navbarNav"
+          aria-expanded={!isNavCollapsed}
+          aria-label="Toggle navigation"
+          onClick={handleNavCollapse}
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse justify-content-center`} id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <NavLink
+                to="/"
+                onClick={closeMenu}
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
+                Home
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <NavLink
+                to="/about"
+                onClick={closeMenu}
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
+                About
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/gallery">Gallery</Link>
-            </li>
-             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
-             <li className="nav-item">
-              <Link className="nav-link" to="/facilities">Facilities</Link>
+              <NavLink
+                to="/gallery"
+                onClick={closeMenu}
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
+                Gallery
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/docs">Affliations & Credentials</Link>
+              <NavLink
+                to="/contact"
+                onClick={closeMenu}
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
+                Contact
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/facilities"
+                onClick={closeMenu}
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
+                Facilities
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/docs"
+                onClick={closeMenu}
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
+                Affiliations & Credentials
+              </NavLink>
             </li>
           </ul>
         </div>
       </div>
-    </nav></div>
+    </nav>
   );
-};
-
+}
 
 export default Navbar;

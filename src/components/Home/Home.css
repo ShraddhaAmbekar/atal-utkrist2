@@ -1,30 +1,5 @@
 /* ========== HERO SECTION ========== */
-/* .hero-banner {
-  width: 100vw;
-  height: 100vh;
-  background-image: url('https://watermark.lovepik.com/photo/50770/8351.jpg_wh1200.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  position: relative; /* ✅ fixed from absolute */
-/* } */
-/*
-.hero-banner::after {
-  position: relative;
-}
 
-.welcome {
-  background: #5c5adb;
-  width: 90%;
-  max-width: 500px;
-  height: 300px;
-  margin: 0 20px 40px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-} */
 
 .custom-hr {
   border: 1px solid white;
@@ -47,21 +22,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  /* Make the image cover the entire banner */
-  height: 100%;
-  /* Make the image cover the entire banner */
 
-  /* Ensure the image covers the entire area */
+  height: 100%;
+ 
 }
 
 .welcome {
   position: absolute;
   bottom: 20px;
-  /* Adjust as needed for placement */
+ 
   left: 20px;
-  /* Adjust as needed for placement */
+
   background-color: #5c5adb;
-  /* Change to your desired background color */
+
   width: 500px;
   height: 300px;
   z-index: 1;

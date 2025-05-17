@@ -25,7 +25,7 @@
 
 .nav-link {
   font-size: 1rem;
-  margin: 0px 10px;
+  margin: 0px 0px;
 }
 
 
@@ -101,7 +101,7 @@ margin-bottom:30px;
     margin: 0 auto 20px;
   }
 
-  .footer-dark .col-md-4,
+  .footer-dark .col-md-3,
   .footer-dark .col-md-2 {
     text-align: center;
     margin-bottom: 30px;
