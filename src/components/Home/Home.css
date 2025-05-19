@@ -1,6 +1,4 @@
 /* ========== HERO SECTION ========== */
-
-
 .custom-hr {
   border: 1px solid white;
   height: 4px;
@@ -13,25 +11,24 @@
 .hero-banner {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
+
 }
 
 .hero-banner img {
-  position: absolute;
+  padding-top: 120px;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-
   height: 100%;
  
 }
 
 .welcome {
-  position: absolute;
-  bottom: 20px;
- 
-  left: 20px;
+
+ display:none;
 
   background-color: #5c5adb;
 
@@ -51,7 +48,7 @@
 
 /* ========== QUOTE SECTION ========== */
 .quote {
-  padding: 100px 0;
+  padding: 50px 0 100px ;
 
 }
 
@@ -222,6 +219,9 @@ text-align: center;
 
 /* Responsive for small devices */
 @media (max-width: 768px) {
+  
+
+
   .principal-section {
     flex-direction: column;
     text-align: center;
@@ -253,59 +253,40 @@ text-align: center;
 @media (max-width: 768px) {
 
   /* HERO SECTION */
-  .hero-banner img {
-    position: relative;
-    height: 50%;
-    object-fit: cover;
-  }
+ 
 
   .welcome {
+    display: block;
     background: #5c5adb;
     width: 100%;
+    height: 250px;
     position: relative;
-    top: 0;
+    top: 130px;
     left: 0;
     margin: 0;
 
   }
 
+  .hero-banner {
+    position: relative;
+
+  }
+
+ .hero-banner img {
+    position: relative;
+    padding-top:70px
+  }
   /* QUOTE SECTION */
- 
+ .quote{
+  position: relative;
+ }
+
   .quote h1 {
     font-size: 2.5rem;
 
   }
 
-  /* SPLIT SECTION */
-  .split-container {
-    flex-direction: column;
-
-  }
-
-  .split-text {
-    width: 100%;
-    text-align: center;
-    height: 300px;
-
-  }
-
-  .img-fluid {
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-  }
-
-  .split-text h2 {
-    font-size: 2rem;
-    padding: 20px;
-  }
-
-  .split-text p {
-    font-size: 1rem;
-    padding: 0 10px;
-  }
-
-
+  
   .gallery {
   display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));

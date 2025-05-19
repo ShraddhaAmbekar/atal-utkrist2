@@ -3,7 +3,7 @@ import React from 'react'
 const Gallery = () => {
   return (
     <>
-          <div className="quote text-center">
+          <div className="text1 quote text-center container-fluid">
           <h1>Gallery</h1>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos 

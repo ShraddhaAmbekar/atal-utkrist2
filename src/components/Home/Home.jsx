@@ -5,10 +5,9 @@ import './Home.css';
 const Home = () => {
   return (
     <>
-
       <div className='hero-banner'>
         <div className='welcome'><h2>Welcome to our college</h2></div>
-        <img src="https://c8.alamy.com/comp/KX38GH/indian-group-school-students-friends-arms-crossed-standing-together-KX38GH.jpg" alt="" />
+        <img src="/assets/banner1.jpg" alt="" />
 
       </div>
       <div className='quote text-center'>

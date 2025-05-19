@@ -1,26 +1,32 @@
 .header {
-  top: 0;
+  top: 0px;
   padding: 15px 0;
   box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
   margin-bottom: 10px;
+   height:80px;
+   width:100%;
+   background-color: white;
+     position:fixed;
+  z-index: 100;
+ 
 }
 
 .logo {
   width: 150px;
-  /* Adjust width as per your logo size */
   height: auto;
-  /* Maintain aspect ratio */
   display: block;
-  /* Ensure it behaves as a block element */
-  margin: 0 auto;
-  /* Center align horizontally */
+  margin: 0 auto; 
+  position:fixed;
 }
 
 .navbar {
   display: flex;
   background-color: #04011b;
   align-self: center;
-
+  position:fixed;
+  top:80px;
+  z-index: 100;
+  width: 100%;
 }
 
 .nav-link {
@@ -37,12 +43,9 @@
  
 }
 
-
 .footer-dark h4 {
   color:  #bd4bff;
 margin-bottom:30px;
-
-
 }
 
 .footer-dark h4 {

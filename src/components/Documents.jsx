@@ -8,7 +8,7 @@ const Documents = () => {
   ];
   return (
     <div>
-        <div className="quote text-center">
+        <div className="text1 quote text-center">
           <h1>Affliations and Credentials</h1>
       
         </div>

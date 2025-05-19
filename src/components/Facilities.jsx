@@ -4,7 +4,7 @@ const Facilities = () => {
   return (
     <div>
       <>
-        <div className="quote text-center">
+        <div className="text1 quote text-center">
           <h1>Facilities</h1>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur, dolores magni

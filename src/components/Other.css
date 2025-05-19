@@ -1,4 +1,12 @@
+.text1{
+  padding-top: 200px;
+  position: relative;
+
+}
+
 .information {
+ 
+
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center; 
