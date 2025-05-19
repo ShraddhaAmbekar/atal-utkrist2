@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className='hero-banner'>
         <div className='welcome'><h2>Welcome to our college</h2></div>
-        <img src="/assets/banner1.jpg" alt="" />
+        <img src="/assets/hero-banner.jpg" alt="hero-image" />
 
       </div>
       <div className='quote text-center'>
