@@ -1,12 +1,9 @@
 .text1{
   padding-top: 200px;
   position: relative;
-
 }
 
 .information {
- 
-
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center; 
@@ -18,7 +15,6 @@
 
 .information > div {
   background-color: #f1f1f1;
-  object-fit: cover;
   overflow: hidden;
   font-size: 30px;
   text-align: center;
@@ -30,11 +26,17 @@
   color: white;
 }
 
+.img-con{
+  width: 100%;
+  height: auto;
+}
 .contact-text{
   font-size:0.8rem;
   color: #828181;
   padding: 20px;
 }
+
+
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .information {
