@@ -33,7 +33,8 @@ const Facilities = () => {
           <div className=' order-0 oder-md-1'>   <div className='quote'>
             <h2>Classrooms
             </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
-          </div></div>
+          </div>
+          </div>
           <div className="img-con order-md-1">
             <img
               src="https://static.wixstatic.com/media/2e2a49_d4fcf8dd8ce44a5ba1e1b9d034d8a43e~mv2.jpg/v1/fill/w_849,h_734,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e2a49_d4fcf8dd8ce44a5ba1e1b9d034d8a43e~mv2.jpg"
