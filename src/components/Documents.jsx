@@ -6,54 +6,57 @@ const Documents = () => {
       title: "Annual Academic Calendar",
       url: "/assets/pdfs/AnnualAcademicCalendar.pdf",
     },
-    {
-      title: "Annual Academic Calendar - 1",
-      url: "/assets/pdfs/AnnualAcademicCalendar1.pdf",
-    },
+  
     {
       title: "Fee Structure of the School",
       url: "/assets/pdfs/FeeStructureForSession2025-26.pdf",
     },
+
     {
       title: "List of School Management Committee (SMC)",
       url: "/assets/pdfs/ListOfSMCMembers.pdf",
     },
+
     {
       title: "List of Parents Teachers Association (PTA) Members",
       url: "/assets/pdfs/ListOfPTAMembers.pdf",
     },
-    {
-      title: "Last Three Years' Result of the Board Examination",
-      url: "/assets/pdfs/BoardExamResultsLastThreeYears.pdf",
-    },
+
     {
       title: "Copy of Affiliation Letter to CBSE",
-      url: "/assets/pdfs/CopyOfAffiliationToCBSE.pdf",
+      url: "/assets/pdfs/CopyOfAffliationToCBSC.pdf",
     },
+
     {
       title: "Copy of Society - Renewal",
       url: "/assets/pdfs/SocietyRenewalCertificate.pdf",
     },
+
     {
       title: "Copy of Recognition Certificate",
       url: "/assets/pdfs/RecognitionCertificateUnderRTE.pdf",
     },
+
     {
       title: "Copy of Self Certification",
       url: "/assets/pdfs/SelfCertificate.pdf",
     },
+
     {
       title: "Certificate of Land",
       url: "/assets/pdfs/LandCertificate.pdf",
     },
+
     {
       title: "Fire Safety Certificate",
       url: "/assets/pdfs/FireSafetyCertificate.pdf",
     },
+
     {
       title: "Building Safety Certificate",
       url: "/assets/pdfs/BuildingSafetyCertificate.pdf",
     },
+
     {
       title: "Safe Drinking Water Certificate",
       url: "/assets/pdfs/SafeDrinkingWaterCertificate.pdf",

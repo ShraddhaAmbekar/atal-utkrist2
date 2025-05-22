@@ -58,7 +58,9 @@
   min-width: 300px;
 }
 
-
+@media (max-width: 1200px) {
+ .info-content{ padding: 10px;}
+}
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .information {
