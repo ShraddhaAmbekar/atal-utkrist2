@@ -10,10 +10,11 @@ const Home = () => {
         {/* <div className='welcome'><h2>Welcome to our college</h2></div> */}
         <img src="/assets/banner.jpg" alt="banner" />
       </div>
-      <div className='quote text-center'>
+      <div className='quote text-center my-2'>
         <h1>Guided by Vision, Driven by Purpose
         </h1>
-        <p>At AUGIC Shrikot, we prepare students not just for exams, but for lives filled with leadership, innovation, and integrit. </p>
+        <p>At AUGIC Shrikot, we prepare students not just for exams, <br/>
+        but for lives filled with leadership, innovation, and integrit. </p>
 
       </div>
 
