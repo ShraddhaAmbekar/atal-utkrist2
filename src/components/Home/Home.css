@@ -63,7 +63,7 @@ font-weight: 300;
 .quote-text{
 color:rgba(159, 159, 160, 0.7);
   font-weight: 100;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
@@ -230,7 +230,7 @@ text-align: center;
   /* QUOTE SECTION */
  .quote{
   position: relative;
-  padding:50px 10px
+  padding:20px 10px;
  }
 
   .quote h1 {
@@ -241,7 +241,7 @@ text-align: center;
   
   .gallery {
   display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 5px;
   max-width: 1300px;
  

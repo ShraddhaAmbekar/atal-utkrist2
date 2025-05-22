@@ -19,7 +19,7 @@ const Facilities = () => {
               alt="labrary"
             />
           </div>
-          <div className='quote'>
+          <div className='info-content'>
             <h2>Library
             </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
           </div>
@@ -30,7 +30,7 @@ const Facilities = () => {
               alt="campus"
             />
           </div>
-          <div className=' order-0 oder-md-1'>   <div className='quote'>
+          <div className=' order-0 oder-md-1'>   <div className='info-content'>
             <h2>Classrooms
             </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
           </div>
@@ -41,7 +41,7 @@ const Facilities = () => {
               alt="school"
             />
           </div>
-          <div className='quote order-md-1'>
+          <div className='info-content order-md-1'>
             <h2>Laboratory
             </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
           </div>

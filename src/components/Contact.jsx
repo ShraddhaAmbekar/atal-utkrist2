@@ -36,7 +36,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className='quote'>
+          <div className='info-content'>
             <h2>Visit our school</h2>
             <div className='contact-text'><h5>Address</h5>
               <h5>Lorem ipsum dolor sit amet.</h5>
@@ -57,7 +57,7 @@ const Contact = () => {
           </div>
 
           <div className='order-0 oder-md-1'>
-            <div className='quote'>
+            <div className='info-content'>
               <h2>You can also contact us with form</h2>
 
               <div className="d-flex justify-content-center align-items-center p-5">

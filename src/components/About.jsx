@@ -19,7 +19,7 @@ const About = () => {
             alt="school"
           />
         </div>
-        <div className='quote'>
+        <div className='info-content'>
           <h2>Mission
         </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
         </div>
