@@ -12,39 +12,31 @@ const Gallery = () => {
 
 <div  className="row"> 
   <div  className="column">
-    <img src="https://tse1.mm.bing.net/th?id=OIP.jpePKRAoFcCgTPZ61GruBgHaJh&pid=Api&P=0&h=180"  />
-    <img src="https://tse4.mm.bing.net/th?id=OIP.LaU3qh-UBe_GgZvfBZ7G5wHaFj&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.auTuXoRfzAsFJsLTXOcTTQAAAA&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.jpePKRAoFcCgTPZ61GruBgHaJh&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
+    <img src="/assets/gallery/01.jpg"  alt='01' />
+      <img src="/assets/gallery/02.jpg"  alt='02' />
+       <img src="/assets/gallery/03.jpg"  alt='03' />
+     
+   
+      
+
     
   </div>
   <div  className="column">
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.sB_DXP4FECT-3xeTCYhm6wHaEm&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.auTuXoRfzAsFJsLTXOcTTQAAAA&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.sB_DXP4FECT-3xeTCYhm6wHaEm&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.auTuXoRfzAsFJsLTXOcTTQAAAA&pid=Api&P=0&h=180"  />
-    <img src="https://tse2.mm.bing.net/th?id=OIP.mSsxm7sdF6Qn0IfAa_dF3AAAAA&pid=Api&P=0&h=180"  />
+    <img src="/assets/gallery/08.jpg"  alt='08' />
+        <img src="/assets/gallery/10.jpg"  alt='10' />
+    
+
   </div>  
   <div  className="column">
-    <img src="https://tse2.mm.bing.net/th?id=OIP.mSsxm7sdF6Qn0IfAa_dF3AAAAA&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.QiVueqWULR8exh3P0xmJAwHaF7&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.kdwqnpO23E7K3_ZUSMHhTAHaHa&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
+  <img src="/assets/gallery/06.jpg"  alt='06' />
+      <img src="/assets/gallery/07.jpg"  alt='07' />
+
   </div>
  <div  className="column">
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.jpePKRAoFcCgTPZ61GruBgHaJh&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.kdwqnpO23E7K3_ZUSMHhTAHaHa&pid=Api&P=0&h=180"  />
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YeSN1YouGpMhvdd_oyUeAwHaE0&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.kdwqnpO23E7K3_ZUSMHhTAHaHa&pid=Api&P=0&h=180"  />
-    <img src="https://tse3.mm.bing.net/th?id=OIP.kdwqnpO23E7K3_ZUSMHhTAHaHa&pid=Api&P=0&h=1800"  />
+  <img src="/assets/gallery/04.jpg"  alt='04' />
+       <img src="/assets/gallery/05.jpg"  alt='05' />
+       
+    
   </div>  
 </div>
     </>

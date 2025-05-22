@@ -1,4 +1,4 @@
-.text1{
+.text1 {
   padding-top: 200px;
   position: relative;
 }
@@ -6,14 +6,14 @@
 .information {
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: center; 
-  gap: 0px; 
+  justify-content: center;
+  gap: 0px;
   color: rgb(29, 29, 54);
   flex-wrap: wrap;
-  margin-bottom:100px ;
+  margin-bottom: 100px;
 }
 
-.information > div {
+.information>div {
   background-color: #f1f1f1;
   overflow: hidden;
   font-size: 30px;
@@ -26,23 +26,24 @@
   color: white;
 }
 
-.img-con{
+.img-con {
   width: 100%;
   height: auto;
 }
-.contact-text{
-  font-size:0.8rem;
+
+.contact-text {
+  font-size: 0.8rem;
   color: #828181;
   padding: 20px;
 }
 
-.contact-form{
-    width: 100%;
-                    max-width: 450px;
-                    background-color: rgba(255, 255, 255, 0.2);
-                    backdrop-filter: blur(6px);
-                    max-height:450px;
-                    min-width: 300px;
+.contact-form {
+  width: 100%;
+  max-width: 450px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  max-height: 450px;
+  min-width: 300px;
 }
 
 
@@ -54,7 +55,7 @@
     align-items: center;
   }
 
-  .information > div {
+  .information>div {
     width: 100%;
     height: auto;
     font-size: 18px;

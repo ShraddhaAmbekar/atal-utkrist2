@@ -13,10 +13,10 @@ const Facilities = () => {
         </div>
 
         <div className="container information">
-          <div className="img-con">
-            <img
-              src="https://static.wixstatic.com/media/2e2a49_c8de1e6e955d459aa01defe9f5971dad~mv2.jpg/v1/fill/w_611,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e2a49_c8de1e6e955d459aa01defe9f5971dad~mv2.jpg"
-              alt="school"
+          <div>
+            <img className="img-con"
+              src="/assets/library.jpg"
+              alt="labrary"
             />
           </div>
           <div className='quote'>
@@ -24,9 +24,9 @@ const Facilities = () => {
             </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
           </div>
 
-          <div className="img-con order-0 order-md-1">
-            <img
-              src="https://static.wixstatic.com/media/2e2a49_c8de1e6e955d459aa01defe9f5971dad~mv2.jpg/v1/fill/w_611,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e2a49_c8de1e6e955d459aa01defe9f5971dad~mv2.jpg"
+          <div className="order-0 order-md-1">
+            <img className="img-con"
+                       src="/assets/lab.jpg"
               alt="campus"
             />
           </div>
@@ -35,9 +35,9 @@ const Facilities = () => {
             </h2><h5 className='quote-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora velit corporis molestias, eaque odit ipsa sapiente consequatur quas consequuntur voluptate!</h5>
           </div>
           </div>
-          <div className="img-con order-md-1">
-            <img
-              src="https://static.wixstatic.com/media/2e2a49_d4fcf8dd8ce44a5ba1e1b9d034d8a43e~mv2.jpg/v1/fill/w_849,h_734,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e2a49_d4fcf8dd8ce44a5ba1e1b9d034d8a43e~mv2.jpg"
+          <div className="order-md-1">
+            <img className="img-con"
+                    src="/assets/class.jpg"
               alt="school"
             />
           </div>
