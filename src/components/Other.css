@@ -29,6 +29,7 @@
   text-align: center;
   max-height: 540px;
   max-width: 600px;
+  min-height: fit-content;
   background-color: rgb(29, 29, 54);
   align-items: center;
   justify-content: center;
@@ -38,7 +39,8 @@
 
 .img-con {
   width: 100%;
-  height: auto;
+  height: 100%;
+
 }
 
 .contact-text {
