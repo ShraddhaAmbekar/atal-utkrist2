@@ -23,8 +23,9 @@
   justify-content: center;
   color: white;
 }
-.info-content{
-   font-size: 30px;
+
+.info-content {
+  font-size: 30px;
   text-align: center;
   max-height: 540px;
   max-width: 600px;
@@ -32,7 +33,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 10px 0px;
+  padding: 50px;
 }
 
 .img-con {
@@ -62,7 +63,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 
   }
 
@@ -70,12 +70,14 @@
     width: 100%;
     height: fit-content;
     font-size: 17px;
-   
   }
-.info-content{
-  min-height: fit-content;
-  border-bottom: 10px solid white;
-}
+
+  .info-content {
+    min-height: fit-content;
+    border-bottom: 10px solid white;
+    padding: 10px;
+  }
+
   .information img {
     width: 100%;
     height: auto;

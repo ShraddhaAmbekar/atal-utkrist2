@@ -1,49 +1,48 @@
 import React from 'react'
+import { useState } from 'react';
+import './Gallery.css'
+import allImages from './../data/AllImages';
 
-const Gallery = () => {
+
+const categories = ['All', 'Activities', 'Class', 'Events',];
+
+      const Gallery = () => {
+        const [selectedCategory, setSelectedCategory] = useState('All');
+        const filteredImages =
+        selectedCategory === 'All'
+          ? allImages
+          : allImages.filter((img) => img.category === selectedCategory);
   return (
-    <>
-          <div className="text1 quote text-center container-fluid">
-          <h1>Gallery</h1>
-          <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos 
-          </h4>
-        </div>
+<div>
 
-<div  className="row mb-5"> 
-  <div  className="column">
-    <img src="/assets/gallery/blue-01.jpg"  alt='01' />
-      <img src="/assets/gallery/yellow-02.jpg"  alt='02' />
-       <img src="/assets/gallery/blue-02.jpg"  alt='03' />
-     
-   
-      
+<div className="gallery-con container py-4">
+  {/* Filter Buttons */}
+  <div className="filter-buttons">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            className={`filter-button ${selectedCategory === cat ? 'active' : ''}`}
+            onClick={() => setSelectedCategory(cat)}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
 
-    
+  {/* Image Grid */}
+  <div className="image-grid">
+    {filteredImages.map((img, index) => (
+      <div key={index} className="grid-item">
+        <img src={img.src} alt={img.category} className="big-img"/>
+        <div className ="overlay overlayeffect"></div>
+      </div>
+    ))}
   </div>
-  <div  className="column">
-    <img src="/assets/gallery/yellow-01.jpg"  alt='08' />
-     <img src="/assets/gallery/blue-03.jpg"  alt='03' />
-        <img src="/assets/gallery/yellow-03.jpg"  alt='10' />
-    
 
-  </div> 
-
-  <div  className="column">
- <img src="/assets/gallery/blue-05.jpg"  alt='03' />
-       <img src="/assets/gallery/yellow-05.jpg"  alt='05' />
-       
-    
-  </div>   
-  <div  className="column">
-  <img src="/assets/gallery/yellow-04.jpg"  alt='06' />
-      <img src="/assets/gallery/blue-04.jpg"  alt='03' />
-
-  </div>
- 
 </div>
-    </>
-  )
-}
+</div>
+
+
+  )}
 
 export default Gallery

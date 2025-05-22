@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router';
 
 
 const Home = () => {
@@ -10,9 +11,10 @@ const Home = () => {
         <img src="/assets/banner.jpg" alt="banner" />
       </div>
       <div className='quote text-center'>
-        <h1>SAFETY MEASURES IN PLACE</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, </p>
-        <span> aliquam. Lorem ipsum dolor sit amet Temporibus, excepturi!</span>
+        <h1>Guided by Vision, Driven by Purpose
+        </h1>
+        <p>At AUGIC Shrikot, we prepare students not just for exams, but for lives filled with leadership, innovation, and integrit. </p>
+
       </div>
 
       <div className="container information">
@@ -61,7 +63,7 @@ const Home = () => {
       <div className='container-fluid gallery-container'>
         <div className='container'>
           <h2>Life & Culture</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> */}
           <div className="gallery">
 
             {[
@@ -75,14 +77,17 @@ const Home = () => {
               "08.jpg"
             ].map((img, index) => (
               <div className="gallery-item" key={index}>
+                <Link to='/gallery'>    
                 <img
                   src={`/assets/home-gallery/${img}`}
                   alt={`Image ${index + 1}`}
                 />
-                <div className="overlay">
+                <div className="overlay"></div>
+                </Link>
+                
 
                 </div>
-              </div>
+              
             ))}
 
           </div>

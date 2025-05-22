@@ -16,7 +16,7 @@ const Facilities = () => {
           <div>
             <img className="img-con"
               src="/assets/library.jpg"
-              alt="labrary"
+              alt="library"
             />
           </div>
           <div className='info-content'>
@@ -26,7 +26,7 @@ const Facilities = () => {
 
           <div className="order-0 order-md-1">
             <img className="img-con"
-                       src="/assets/lab.jpg"
+                       src="/assets/class.jpg"
               alt="campus"
             />
           </div>
@@ -37,7 +37,7 @@ const Facilities = () => {
           </div>
           <div className="order-md-1">
             <img className="img-con"
-                    src="/assets/class.jpg"
+                    src="/assets/lab.jpg"
               alt="school"
             />
           </div>

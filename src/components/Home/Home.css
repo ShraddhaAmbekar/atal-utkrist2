@@ -61,9 +61,8 @@ font-weight: 300;
 }
 
 .quote-text{
-color:rgba(159, 159, 160, 0.7);
-  font-weight: 100;
-  padding: 1rem;
+color:rgba(159, 159, 160);
+  font-weight: 200;
 }
 
 
@@ -113,6 +112,7 @@ color:rgba(159, 159, 160, 0.7);
 
 .gallery-item:hover img {
   transform: scale(1.05);
+
 }
 
 .gallery-item .overlay {
@@ -121,7 +121,7 @@ color:rgba(159, 159, 160, 0.7);
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  /* background:  rgb(29, 29, 54,0.5); */
   color: white;
   font-size: 1.5rem;
   display: flex;
@@ -133,6 +133,7 @@ color:rgba(159, 159, 160, 0.7);
 
 .gallery-item:hover .overlay {
   opacity: 1;
+  border: 1px solid #000000;
 }
 
 

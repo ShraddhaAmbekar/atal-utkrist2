@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">Brand</a>
+        <a className="navbar-brand"></a>
         <button
           className="navbar-toggler"
           type="button"
