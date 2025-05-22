@@ -6,9 +6,8 @@ const Home = () => {
   return (
     <>
       <div className='hero-banner'>
-        <div className='welcome'><h2>Welcome to our college</h2></div>
+        {/* <div className='welcome'><h2>Welcome to our college</h2></div> */}
         <img src="/assets/banner.jpg" alt="banner" />
-
       </div>
       <div className='quote text-center'>
         <h1>SAFETY MEASURES IN PLACE</h1>

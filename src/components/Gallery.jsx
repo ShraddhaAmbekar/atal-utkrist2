@@ -10,11 +10,11 @@ const Gallery = () => {
           </h4>
         </div>
 
-<div  className="row"> 
+<div  className="row mb-5"> 
   <div  className="column">
-    <img src="/assets/gallery/01.jpg"  alt='01' />
-      <img src="/assets/gallery/02.jpg"  alt='02' />
-       <img src="/assets/gallery/03.jpg"  alt='03' />
+    <img src="/assets/gallery/blue-01.jpg"  alt='01' />
+      <img src="/assets/gallery/yellow-02.jpg"  alt='02' />
+       <img src="/assets/gallery/blue-02.jpg"  alt='03' />
      
    
       
@@ -22,22 +22,25 @@ const Gallery = () => {
     
   </div>
   <div  className="column">
-    <img src="/assets/gallery/08.jpg"  alt='08' />
-        <img src="/assets/gallery/10.jpg"  alt='10' />
+    <img src="/assets/gallery/yellow-01.jpg"  alt='08' />
+     <img src="/assets/gallery/blue-03.jpg"  alt='03' />
+        <img src="/assets/gallery/yellow-03.jpg"  alt='10' />
     
 
-  </div>  
-  <div  className="column">
-  <img src="/assets/gallery/06.jpg"  alt='06' />
-      <img src="/assets/gallery/07.jpg"  alt='07' />
+  </div> 
 
-  </div>
- <div  className="column">
-  <img src="/assets/gallery/04.jpg"  alt='04' />
-       <img src="/assets/gallery/05.jpg"  alt='05' />
+  <div  className="column">
+ <img src="/assets/gallery/blue-05.jpg"  alt='03' />
+       <img src="/assets/gallery/yellow-05.jpg"  alt='05' />
        
     
-  </div>  
+  </div>   
+  <div  className="column">
+  <img src="/assets/gallery/yellow-04.jpg"  alt='06' />
+      <img src="/assets/gallery/blue-04.jpg"  alt='03' />
+
+  </div>
+ 
 </div>
     </>
   )
