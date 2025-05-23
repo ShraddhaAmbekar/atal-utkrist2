@@ -19,10 +19,10 @@ const Footer = () => {
             <h4>Other Navigation</h4>
            <div className=''>
              <ul>
-              <li><Link to="/facilities">About</Link></li>
+              <li><Link to="/about">About</Link></li>
               <li><Link to="/facilities">Facilities</Link></li>
-              <li><Link to="/facilities">Gallery</Link></li>
-               <li><Link to="/facilities">Affliation and Credentials</Link></li>
+              <li><Link to="/gallery">Gallery</Link></li>
+               <li><Link to="/docs">Affliation and Credentials</Link></li>
             </ul>
            </div>
           
@@ -32,10 +32,10 @@ const Footer = () => {
             <h4>Stay Connected</h4>
            <div className=''>
              <ul>
-              <li><Link to="/">Facebook</Link></li>
-              <li><Link to="/">Twitter</Link></li>
-              <li><Link to="/">Instagram</Link></li>
-               <li><Link to="/">Youtube</Link></li>
+              <li><Link to="https://www.facebook.com">Facebook</Link></li>
+              <li><Link to="https://x.com">Twitter</Link></li>
+              <li><Link to="https://www.instagram.com">Instagram</Link></li>
+               <li><Link to="https://www.youtube.com">Youtube</Link></li>
             </ul>
            </div>
           
@@ -49,9 +49,9 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <p>Atal Utkrisht Government Inter College,
             Shrikot, Chinyalisaur, Uttarkashi</p>
-            <p>Pin code -</p>
-            <p>Email: </p>
-            <p>Phone: </p>
+            <p>Pin code - 249152</p>
+            <p>Email: gicshrikot.uki@gmail.com</p>
+            <p>Phone: 9917868864 , 9897948768</p>
          
           </div>
 

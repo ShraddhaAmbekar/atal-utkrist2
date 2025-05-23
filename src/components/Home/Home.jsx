@@ -63,7 +63,7 @@ const Home = () => {
 
       <div className='container-fluid gallery-container'>
         <div className='container'>
-          <h2>Life & Culture</h2>
+          <h2 className='py-2'>Gallery </h2>
           {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> */}
           <div className="gallery">
 
@@ -100,7 +100,7 @@ const Home = () => {
       <div className='container principal-section d-flex flex-md-row flex-column'>
         <div className='principal-msg'>
           <h2>
-            About principal
+           Principal  Message
           </h2>
           <p>Every man is the artisan of his fortune.
             I firmly believe that a school should serve as a powerful tool for
@@ -120,7 +120,8 @@ const Home = () => {
             legitimate concerns of the future. With dedication and
             teamwork, we will strive to turn this vision into a reality.</p>
         </div>
-        <img className="img-fluid" src="/assets/principal-image.jpg" alt="principal" />
+       <div> <img className="img-fluid" src="/assets/principal-image.jpg" alt="principal" />
+        <p className='text-center principal-name'>Mr. M S Rawat</p></div>
       </div>
 
     </>

@@ -6,7 +6,7 @@ const Documents = () => {
       title: "Annual Academic Calendar",
       url: "/assets/pdfs/AnnualAcademicCalendar.pdf",
     },
-  
+
     {
       title: "Fee Structure of the School",
       url: "/assets/pdfs/FeeStructureForSession2025-26.pdf",
@@ -33,6 +33,10 @@ const Documents = () => {
     },
 
     {
+      title: "School Result Of Last 3 years",
+      url: "/assets/pdfs/SchoolResultOfLast3years.pdf",
+    },
+    {
       title: "Copy of Recognition Certificate",
       url: "/assets/pdfs/RecognitionCertificateUnderRTE.pdf",
     },
@@ -56,7 +60,6 @@ const Documents = () => {
       title: "Building Safety Certificate",
       url: "/assets/pdfs/BuildingSafetyCertificate.pdf",
     },
-
     {
       title: "Safe Drinking Water Certificate",
       url: "/assets/pdfs/SafeDrinkingWaterCertificate.pdf",
@@ -85,7 +88,7 @@ const Documents = () => {
               >
                 View PDF
               </a>
-              
+
             </li>
           ))}
         </ul>

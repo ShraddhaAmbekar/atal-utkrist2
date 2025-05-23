@@ -172,6 +172,10 @@ text-align: center;
   margin: auto;
 }
 
+.principal-name{
+font-size: 2rem;
+}
+
 /* Responsive for small devices */
 @media (max-width: 768px) {
   .principal-section {
