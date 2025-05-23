@@ -102,7 +102,7 @@ const Home = () => {
           <h2>
            Principal  Message
           </h2>
-          <p>Every man is the artisan of his fortune.
+          <p>"Every man is the artisan of his fortune".
             I firmly believe that a school should serve as a powerful tool for
             character development. Our mission is to equip students with
             the latest knowledge and the competitive edge, instilling both

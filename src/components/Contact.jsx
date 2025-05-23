@@ -37,16 +37,16 @@ const Contact = () => {
 
           <div className='info-content'>
             <h2>Visit our school</h2>
-            <div className='contact-text'><h5>Address</h5>
-              <h5> Atal Utkist Government Inter College Shrikot
-                Pincode : 249152
+            <div className='contact-text'><h5><b>Address</b></h5>
+              <h5> Atal Utkrist Government Inter College Shrikot
+               <br/> Pincode : 249152
               </h5>
             </div>
-            <div className='contact-text'><h5>Contact us</h5>
+            <div className='contact-text'><h5><b>Contact us</b></h5>
               <h5> 9917868864 , 9897948768
               </h5>
             </div>
-            <div className='contact-text'><h5>Email</h5>
+            <div className='contact-text'><h5><b>Email</b></h5>
               <h5>gicshrikot.uki@gmail.com
               </h5>
             </div>
@@ -100,8 +100,7 @@ const Contact = () => {
         </div>
 
          <div className="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3431.5991531021273!2d78.22733687557809!3d30.673414174612944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQwJzI0LjMiTiA3OMKwMTMnNDcuNyJF!5e0!3m2!1sen!2sin!4v1745372467733!5m2!1sen!2sin"
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.8593588269914!2d78.29082887557668!3d30.637920974630166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908e9df66684859%3A0x111dd6ab331e536d!2sGovernment%20Inter%20College%2C%20Shrikot!5e0!3m2!1sen!2sin!4v1747991420217!5m2!1sen!2sin"
             width="100%"
             height="450"
             allowFullScreen=""

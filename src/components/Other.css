@@ -20,7 +20,7 @@
   max-width: 600px;
   background-color: rgb(29, 29, 54);
   align-items: center;
-  justify-content: center;
+
   color: white;
 }
 
@@ -32,7 +32,7 @@
   min-height: fit-content;
   background-color: rgb(29, 29, 54);
   align-items: center;
-  justify-content: center;
+  
   color: white;
   padding: 50px;
 }

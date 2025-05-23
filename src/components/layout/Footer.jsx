@@ -10,8 +10,7 @@ const Footer = () => {
           {/* Column 1: School Info + About Links */}
           <div className="col-md-3 mb-4 px-3">
             <h3>Atal Utkrisht Govt Inter College,  Shrikot, Chinyalisaur,
-            Uttarkashi</h3>
-           
+            Uttarkashi</h3>          
           </div>
 
           {/* Column 2: Facilities */}
