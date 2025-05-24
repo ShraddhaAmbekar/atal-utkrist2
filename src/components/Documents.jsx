@@ -64,10 +64,16 @@ const Documents = () => {
       title: "Safe Drinking Water Certificate",
       url: "/assets/pdfs/SafeDrinkingWaterCertificate.pdf",
     },
+     {
+      title: "Staff List",
+      url: "/assets/pdfs/stafflist.pdf",
+    },
     {
       title: "Mandatory Disclosure Details",
-      url: "/assets/pdfs/MandatoryDisclosureDetails.pdf",
+      url: "/assets/pdfs/MandatoryDisclosureDetails _ SARAS6.0.pdf",
     },
+
+    
   ];
 
   return (

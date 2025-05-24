@@ -38,7 +38,7 @@ const Contact = () => {
           <div className='info-content'>
             <h2>Visit our school</h2>
             <div className='contact-text'><h5><b>Address</b></h5>
-              <h5> Atal Utkrist Government Inter College Shrikot
+              <h5> Atal Utkrisht Government Inter College Shrikot
                <br/> Pincode : 249152
               </h5>
             </div>

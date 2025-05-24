@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <>
       <div className='hero-banner'>
-        {/* <div className='welcome'><h2>Welcome to our college</h2></div> */}
         <img src="/assets/banner.jpg" alt="banner" />
       </div>
       <div className='quote text-center my-2'>
@@ -64,9 +63,8 @@ const Home = () => {
       <div className='container-fluid gallery-container'>
         <div className='container'>
           <h2 className='py-2'>Gallery </h2>
-          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> */}
+        
           <div className="gallery">
-
             {[
               "01.jpg",
               "02.jpg",
@@ -81,7 +79,7 @@ const Home = () => {
                 <Link to='/gallery'>    
                 <img
                   src={`/assets/home-gallery/${img}`}
-                  alt={`Image ${index + 1}`}
+                  alt={`${index + 1}`}
                 />
                 <div className="overlay"></div>
                 </Link>
